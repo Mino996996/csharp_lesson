@@ -76,6 +76,9 @@ namespace CalculatorProgram
 
                 Console.WriteLine("\n"); // Friendly linespacing.
             }
+
+            // 依存先からJSONログファイル書込終了関数を呼び出し
+            calculator.Finish();
             return;
         }
     }
